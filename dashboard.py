@@ -1,12 +1,3 @@
-"""
-generate_dashboard.py — CASE FILE theme, now interactive.
-Reads paper_leaks.csv, computes everything with pandas, renders a single
-HTML dashboard with a live filterable/group-by chart + table view,
-patterns write-up, and a data-quality caveat section.
-
-Usage:
-    python generate_dashboard.py <input_csv> <output_html>
-"""
 import sys
 import json
 import pandas as pd
